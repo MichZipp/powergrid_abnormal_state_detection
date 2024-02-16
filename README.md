@@ -6,7 +6,7 @@ This project aims to develop an artificial intelligence-enhanced detection tool 
 
 ## Problem Definition
 
-The aim of the detection tool is to distinglish between healthy and unhealthy power grid states. A healthy powergrids state is characterized by the absence of DNS and CF.
+The aim of the detection tool is to distinglish between normal and abnormal power grid states. A healthy powergrids state is characterized by the absence of DNS and CF.
 
 We have defined the learning task of the detection tool as a binary or multiclass classification problem.
 
