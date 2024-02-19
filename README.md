@@ -2,7 +2,11 @@
 
 Authors: Michael Zipperle and Min Wang 
 
-This project aims to develop an artificial intelligence-enhanced detection tool for predicting Demand Not Served (DNS) amd Cascading Failures (CF) in power grids. A deep learning model based on graph neural networks is designed for this purpose. The model predicts whether a DNS or CF will occur based on the input power grid status and topology. To generate sufficient training data for the model, we collaborate with the Reliability and Risk Engineering Group in ETH Zurich and build a physics-based simulation model for power grid analysis on the Cascades platform. While we cannot share the original dataset yet, this repository contains some testing subset which has been derived from the original dataset.
+This project aims to develop an artificial intelligence-enhanced detection tool for predicting Demand Not Served (DNS) amd Cascading Failures (CF) in power grids. A deep learning model based on graph neural networks is designed for this purpose. The model predicts whether a DNS or CF will occur based on the input power grid status and topology. The dataset used for training the model was collected by the Reliability and Risk Engineering Group in ETH Zurich through a physics-based simulation model built on the Cascades platform [1]. For information about the dataset, please refer to repository in reference [2]. This repository contains some testing subset which has been derived from the original dataset. 
+
+[1] https://rre.ethz.ch/research/research-pillars/power-systems/cascading-failure-in-power-systems.html
+
+[2] https://github.com/k-amara/PowerGraph
 
 ## Problem Definition
 
